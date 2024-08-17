@@ -1,0 +1,12 @@
+.component__display {
+    width: 100%;
+    height: max-content;
+    padding: 1rem 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: #fff;
+    border-radius: 0.5rem;
+  }

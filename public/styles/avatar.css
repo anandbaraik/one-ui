@@ -1,0 +1,32 @@
+.avatar {
+  width: 6rem;
+  height: 6rem;
+  /* margin: auto; */
+  border-radius: 50%;
+  border: 1px solid var(--secondary-color);
+  object-fit: contain;
+}
+.avatar-sm {
+  width: 2rem;
+  height: 2rem;
+  /* margin: auto; */
+  border-radius: 50%;
+  border: 1px solid var(--secondary-color);
+  object-fit: contain;
+}
+.avatar-md {
+  width: 3rem;
+  height: 3rem;
+  /* margin: auto; */
+  border-radius: 50%;
+  border: 1px solid var(--secondary-color);
+  object-fit: contain;
+}
+.avatar-lg {
+  width: 5rem;
+  height: 5rem;
+  /* margin: auto; */
+  border-radius: 50%;
+  border: 1px solid var(--secondary-color);
+  object-fit: contain;
+}

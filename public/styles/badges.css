@@ -1,0 +1,45 @@
+.badge {
+  position: relative;
+  width: max-content;
+}
+
+.online {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  bottom: 3px;
+  right: 3px;
+  background-color: #1e7e34;
+  border-radius: 50%;
+}
+.offline {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  bottom: 3px;
+  right: 3px;
+  background-color: #999;
+  border-radius: 50%;
+}
+.dnd {
+  position: absolute;
+  width: 1.5rem;
+  height: 1.5rem;
+  bottom: 3px;
+  right: 3px;
+  background-color: red;
+  border-radius: 50%;
+}
+.number {
+  position: absolute;
+  width: 1.7rem;
+  height: 1.7rem;
+  top: 3px;
+  right: 3px;
+  background-color: #17a2b8;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

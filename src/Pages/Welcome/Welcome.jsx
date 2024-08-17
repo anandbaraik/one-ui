@@ -11,13 +11,14 @@ const Welcome = () => {
 			Experience the future of design with One-UI Component Library – where beauty meets functionality for seamless user experiences
 		</p>
 		<div className={styles['action']}>
-			<Link to={'/components'}
-				className={styles['btn btn-primary']}>
-				Get started
+			<Link to={'/docs/getting-started'}>
+				<button type="button" className={`${styles['btn']} ${styles['btnPrimary']}`}>
+					Get Started
+				</button>
 			</Link>
 			<a href="https://github.com/anandbaraik" target="_blank"
 				rel="noopener noreferrer"
-				className={styles['btn btn-outline-secondary']}>
+				className={`${styles['btn']} ${styles['btnOutlinePrimary']}`}>
 				GitHub
 			</a>
 		</div>

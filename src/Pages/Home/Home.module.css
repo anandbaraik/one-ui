@@ -1,0 +1,32 @@
+.container {
+  width: 100%;
+  height: max-content;
+  margin: 0rem auto;
+  padding: 0.5rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.componentList{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn__components {
+  /* width: 20rem; */
+  height: 3rem;
+  padding: 0.4rem 3rem;
+  border-radius: 0.2rem;
+  /* font-size: 1.5rem; */
+  font-weight: 500;
+  /* cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center; */
+  /* gap: 1rem; */
+  background-color: #00a5e196;
+  color: whitesmoke;
+}

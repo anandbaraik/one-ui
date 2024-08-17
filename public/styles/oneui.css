@@ -1,0 +1,33 @@
+@import url("./Button.css");
+@import url("./avatar.css");
+@import url("./alert.css");
+@import url("./badges.css");
+@import url("./card.css");
+@import url("./image.css");
+@import url("./input.css");
+@import url("./text.css");
+@import url("./list.css");
+@import url("./nav.css");
+@import url("./grid.css");
+@import url("./modal.css");
+
+:root {
+  --primary-color: #2563eb;
+  --secondary-color: #9ca3af;
+  --success-color: #15803d;
+  --danger-color: #ef4444;
+  --warning-color: #fde047;
+  --info-color: #38bdf8;
+  --grey-color: #e5e7eb;
+  --black-color: #0c0a09;
+  --white-color: #fff;
+  --lynx-white-color: #faf8f8;
+  --voilet-color: #6d28d9;
+  --lynx-gray-color: #9ca3af;
+  --failed-color: #ef4444;
+  --warning-color: #facc15;
+  --text-red: #dc2626;
+  --text-green: #15803d;
+  --text-blue: #1d4ed8;
+  --text-cyan: #06b6d4;
+}

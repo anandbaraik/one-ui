@@ -1,0 +1,35 @@
+.layoutContainer{
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+    /* padding: 1rem; */
+    height: calc(100vh - 4rem);
+    display: grid;
+    grid-template-columns: 25% 75%;
+    gap: 2rem;
+}
+.sideBarMenuCntainer {
+    max-width: 100%;
+    height: calc(100vh - 4rem);
+}
+.mainDocContainer{
+    max-width: 100%;
+    height: calc(100vh - 4rem);
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.mainDocContainer::-webkit-scrollbar {
+    width: 0.3rem;
+}
+
+.mainDocContainer::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px rgba(78, 78, 78, 0.3);
+    border-radius: 1rem;
+}
+
+.mainDocContainer::-webkit-scrollbar-thumb {
+    background-color: #3f3f46;
+    border-radius: 1rem;
+    outline: 0.1rem solid #94a3b8;
+}
